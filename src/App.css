@@ -7,7 +7,7 @@
 }
 /* style input field  */
 input, select {
-  border: 1px solid #ff6464;
+  border: 1px solid var(--main-color);
   border-radius: 5px;
   padding: 8px 10px;
   font-size: 1em;
