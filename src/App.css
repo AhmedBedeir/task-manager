@@ -1,0 +1,87 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+/* style input field  */
+input, select {
+  border: 1px solid #ff6464;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 1em;
+  font-family: inherit;
+  color: var(--white);
+  background-color: #1a1a1a;
+}
+.form-heading{
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+
+}
+.task {
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--white);
+}
+.task-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.task-actions{
+  display: flex;
+  gap: 30px;
+}
+.not-started, .in-progress, .finished {
+  
+  padding: 5px;
+  border-radius: 30px;
+}
+.not-started {
+  background-color: #ff6464;
+}
+.in-progress {
+  background-color: #ffda64;
+  color: #1a1a1a;
+}
+.finished {
+  background-color: #64ff64;
+  color: #1a1a1a;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+.login-form {
+  max-width: 30%;
+  margin: 20px auto;
+}
+.login-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px auto;
+  width: 100%;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .login-form {
+    max-width: 80%;
+  }
+} 
